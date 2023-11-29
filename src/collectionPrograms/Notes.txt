@@ -1,0 +1,17 @@
+
+Difference between Comparable and Comparator -
+
+1)  Comparable is implemented directly on Pojo class.
+	Comparator is implemented on separate class.
+	
+2)  Comparable allows you to compare object bases on any single property only.
+	Comparator allows you to compare objects in different ways.
+
+3)  Comparable is in java.lang package.
+	Comparator is in java.util.package.
+
+4)  Comparable has abstract method compareTo(Object ob);
+	Comparator has abstract method compare(Object o1, Object o2);
+
+5)  When using Comparable, We sort by Collections.sort(listName);
+	When using Comparator, We sort by Collections.sort(listName, Comparator implemented object);

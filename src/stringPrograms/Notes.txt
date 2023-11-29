@@ -1,0 +1,62 @@
+String is a final predefined class.
+String objects are used to store sequence of character.
+
+since string is final class we will not able to extend any class to this string class.
+
+String literals create objects in SCP(String Constant Poll)
+When we store data in string object each character is given an index starting from 0 to length()-1
+String is class so it has many methods in it. Most commonly used methods are:-
+
+1]length() :- this method give total number of character in string.
+
+2]charAt(index) :-  this method give character present at given index.
+
+3]toUpperCase() :- this method return a new string object in which all letters are capital
+
+4]toLowerCase() :- this method return a new string object in which all letters are small
+
+5].contains :- this method return true if it finds the given word in our string otherwise returns false.
+
+6].replace(OldCharacter, NewCharacter):- This method returns a new string in which all old character is replaced by new character.
+
+7] .replace("String1", "String2"):- This method returns a new String in which all old string1 is replaced by new string2.
+
+8] .replace("String1", "String2"):- this methods return new string where only first occurrence of string 1 is replaced by 
+new string 2
+
+9] .indexOf ():- this method returns index of first occurrence of given character
+10] .lastIndexof ():- this method returns index of last occurrence of given character
+
+11] .indexOf ("String"):- this method returns index of first occurrence of given string
+
+12] .indexOf ('character', StartIndex):- this method returns index of first occurrence of given character starting the search from given
+startIndex
+
+13].indexOf ("String", StartIndex ):- this method returns index of first occurrence of given string starting the search from given
+startIndex
+
+14] .subString():- this method has return a new string there are all character of original string starting from the given index.
+
+15] .subString(StartIndex, OffSetindex):-  this method has return a new string there are all character of original string starting 
+from the given start index up to off set index.
+Note:We will not see character present in off set index
+
+16] . startsWith(word):- will give true if the string start with the  given word
+17] .endWith(word):-will give true if the string end with the  given word
+
+19] .ConCat(): create new object with all the new character attached to original value
+
+
+String is immutable:- It's original object can't change be changed. If we call 
+
+
+sss
+s
+
+
+
+
+
+
+
+
